@@ -79,7 +79,7 @@ Ensure you have **Node.js** (v18 or higher recommended) and **npm** installed.
 
 ```bash
 
-git clone <your-repo-url>
+git clone https://github.com/aditya-prabhakar-13/UDGAM26
 
 cd udgam26
 
