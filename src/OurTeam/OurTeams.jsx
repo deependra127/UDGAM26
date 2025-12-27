@@ -3,7 +3,7 @@ import './OurTeam.css';
 import convenerPhoto from "../assets/ourteam/convinormal.png";
 // import transparent from "../assets/transparent.png";
 import subtract from "../assets/ourteam/Subtract.svg";
-import Rectangle14 from "../assets/Rectangle14.svg";
+// import Rectangle14 from "../assets/Rectangle14.svg";
 import our from "../assets/ourteam/our.png";
 // import rectangleleft from "../assets/rectangle-left.svg";
 // import design from "../assets/design.svg";
@@ -34,7 +34,7 @@ import disruptpng from "../assets/ourteam/disruptpng.png";
 import marketingpng from "../assets/ourteam/marketingpng.png";
 import prbpng from "../assets/ourteam/prbpng.png";
 import expopng from "../assets/ourteam/expopng.png";
-const OurTeam = () => {
+const OurTeams = () => {
     return (
             <section className="our-team">
                   <div className='Heading'>
@@ -224,4 +224,4 @@ const OurTeam = () => {
             </div>
                 </section>
         );
-}; export default OurTeam;
+}; export default OurTeams;
