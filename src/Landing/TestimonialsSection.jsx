@@ -20,7 +20,7 @@ const TestimonialCard = ({ divclassName, textbclassName, imgsrc, testimonial, au
                 </div>
             </div>
             <div id="TestimonialAuthor" className="text-black font-['Inter'] text-[1.05vw] not-italic font-bold leading-[normal] self-start ml-[2.37vw]">
-                 -{author}
+                 {author}
             </div>
         </div>
     ) : (
@@ -37,7 +37,7 @@ const TestimonialCard = ({ divclassName, textbclassName, imgsrc, testimonial, au
                 </svg>
             </div>
             <div id="TestimonialAuthor" className="text-black font-['Inter'] text-[1.05vw] not-italic font-bold leading-[normal] self-start ml-[2.37vw]">
-                 -{author}
+                 {author}
             </div>
         </div>
     );
@@ -67,21 +67,21 @@ export default function TestimonialsSection() {
                     <TestimonialCard 
                         divclassName="w-[20.38vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
                         textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal"
-                        testimonial="I lobed udgam bery bery much very good facchas gifted me plants and pots"
-                        author="Aditya Ranjan (ceo of bkcd.ai)"
+                        testimonial="Coming Soon ..."
+                        author=""
                     />
                     <TestimonialCard 
                         divclassName="w-[37.15vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
                         textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal"
-                        testimonial="I lobed udgam bery bery much very insightful event gifted me plants and pots"
-                        author="Aditya Ranjan (ceo of bkcd.ai)"
-                        imgsrc="/placeholder-testi.png"
+                        testimonial="Coming Soon ..."
+                        author=""
+                        // imgsrc="/placeholder-testi.png"
                     />
                     <TestimonialCard 
                         divclassName="w-[28.47vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
                         textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal"
-                        testimonial="I lobed udgam bery bery much very insightful event gifted me plants and pots"
-                        author="Aditya Ranjan (ceo of bkcd.ai)"
+                        testimonial="Coming soon ..."
+                        author=""
                     />
                 </div>
 
@@ -97,15 +97,15 @@ export default function TestimonialsSection() {
                     <TestimonialCard 
                         divclassName="w-[37.15vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
                         textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal"
-                        testimonial="I lobed udgam bery bery much very good facchas gifted me plants and potsI lobed udgam bery bery much  good facchas gifted me plants and pots"
-                        author="Aditya Ranjan (ceo of bkcd.ai)"
+                        testimonial="Coming Soon ..."
+                        author=""
                     />
                     <TestimonialCard 
                         divclassName="w-[48.86vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
                         textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal pr-[2%]"
-                        testimonial="I lobed udgam bery bery much very insightful events very good facchas gifted me plants and pots"
-                        author="Aditya Ranjan (ceo of bkcd.ai)"
-                        imgsrc="/placeholder-testi.png"
+                        testimonial="Coming soon ..."
+                        author=""
+                        // imgsrc="/placeholder-testi.png"
                     />
                 </div>
 
