@@ -10,17 +10,17 @@ export default function InfoSection() {
                         UDGAM is the flagship 2-day annual Entrepreneurship Summit of E-Cell, IIT Guwahati, held every January, bringing together founders, investors, product leaders, and aspiring entrepreneurs from across the country. Through workshops, keynote sessions, competitions, and networking opportunities, it fosters entrepreneurial thinking and serves as a catalyst for innovation and startup culture in North-East India and beyond.
                     </div> 
                 </div>
-                <div id="video-card" className='h-[60%] rounded-[1.5rem] max-md:rounded-[2vw] border-[3px] border-[#141131] bg-[#FFF9F0] mt-4 max-md:mt-2 flex items-center justify-center'>
+                <div id="video-card" className='w-full h-[60%] rounded-[1.5rem] max-md:rounded-[2vw] border-[3px] border-[#141131] bg-[#FFF9F0] mt-4 max-md:mt-2 flex items-center justify-center px-[5%]'>
                     {/* Video Placeholder */}
-                    <div id = "video-card-coming-soon" className="text-[#141131] text-center font-['Creato_Display'] text-[3vw] max-md:text-[5vw] font-black leading-normal">
-                        Coming soon...
+                    <div id = "video-card-coming-soon" className="text-[#141131] text-center font-inter text-[1.12vw] max-md:text-[2.5vw] font-normal leading-normal">
+                        The summit features high-impact events like Disrupt, the region’s largest pitching battle, and PMx, India's leading student-led Product Management competition. Through the Startup Expo and Internfair, it connects thousands of students with high-growth ventures and funding opportunities. These initiatives provide the practical tools and networks necessary to transform raw ideas into scalable startups.
                     </div>
                 </div>
             </div>
             <div id="gallary-container" className='w-[25%] max-md:w-[30%] h-[100%] rounded-[1.5rem] max-md:rounded-[2vw] border-[3px] border-[#141131] bg-[#FFF9F0] ml-4 max-md:ml-0 flex items-center justify-center'>
                 {/* Gallery Placeholder */}
-                <div id = "gallery-coming-soon" className="text-[#141131] text-center font-['Creato_Display'] text-[2.5vw] max-md:text-[4vw] font-black rotate-90 max-md:rotate-0">
-                    Coming soon...
+                <div id = "gallery-coming-soon" className="text-[#141131] text-center font-['Creato_Display'] text-[1.12vw] max-md:text-[2.5vw] font-normal px-[5%]">
+                    With a history of hosting icons like Jimmy Wales and Kevin Harrington, UDGAM has evolved into a movement for regional and national transformation. By collaborating with partners like Assam Startup and IITG-TIC, the summit positions the North-East as a vital hub for deep-tech and social entrepreneurship. It remains dedicated to empowering leaders who will drive India’s economic and innovative future.
                 </div>
             </div>
         </div>

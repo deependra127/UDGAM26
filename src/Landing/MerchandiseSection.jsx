@@ -7,20 +7,23 @@ export default function MerchandiseSection() {
             <div id="merchandise-card-container" className="flex flex-col justify-center items-center relative z-1">
                 
                 {/* Decorative background cards */}
-                <div id="merchandise-filler-card1" className="w-[19.2vw] h-[7.38vw] max-md:h-[15vw] rounded-[2.19vw] bg-[#FFF9F0] absolute z-0 top-[-0.05vw] max-md:top-[-0.3vw] right-[-11.28vw] rounded-[2.3vw] border border-black"></div>
+                <div id="merchandise-filler-card1" className="invisible w-[19.2vw] h-[7.38vw] max-md:h-[15vw] rounded-[2.19vw] bg-[#FFF9F0] absolute z-0 top-[-0.05vw] max-md:top-[-0.3vw] right-[-11.28vw] rounded-[2.3vw] border border-black"></div>
                 
                 {/* --- WHITE T-SHIRT (Main Canvas) --- */}
                 <div id="merchandise-main-canvas" className="flex flex-col justify-center items-end w-[45.96vw] h-[29.2vw] max-md:h-[35vw] rounded-[2.19vw] bg-[#FFF9F0] relative z-50">
-                    <div id="merch-img-container2" className="absolute left-[6vw] bottom-[-0.4vw] w-[29.46vw] h-[39.26vw] group">
+                    <div className='w-full text-[#000] text-center font-inter text-[2.5vw] max-md:text-[4.5vw] font-black leading-normal items-center justify-center px-[5%]'>
+                        Coming soon ...
+                    </div>
+                    <div id="merch-img-container2" className="invisible absolute left-[6vw] bottom-[-0.4vw] w-[29.46vw] h-[39.26vw] group">
                         <img src="/merch-white-front.png" alt="merch-white-front" className="absolute inset-0 w-full h-full object-cover aspect-[448/597] transition-opacity duration-500 ease-in-out group-hover:opacity-0" />
                         <img src="/merch-white-back.png" alt="merch-white-back" className="absolute inset-0 w-full h-full object-cover aspect-[448/597] opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100" />
                     </div>
                 </div>
 
-                <div id="merchandise-filler-card2" className="w-[40.9vw] h-[7.17vw] max-md:h-[15vw] rounded-[2.19vw] bg-[#FFF9F0] absolute z-0 bottom-0 left-[-15.66vw]"></div>
+                <div id="merchandise-filler-card2" className="invisible w-[40.9vw] h-[7.17vw] max-md:h-[15vw] rounded-[2.19vw] bg-[#FFF9F0] absolute z-0 bottom-0 left-[-15.66vw]"></div>
 
                 {/* --- BLACK T-SHIRT (Blue Card) --- */}
-                <div id="blue-merch-card" className="w-[20.77vw] h-[26.24vw] rounded-[1.3vw] border-[2.169px] border-[#141131] bg-[#42D4FD] absolute z-[51] left-[-20.5vw] top-[-3.7vw]">
+                <div id="blue-merch-card" className="invisible w-[20.77vw] h-[26.24vw] rounded-[1.3vw] border-[2.169px] border-[#141131] bg-[#42D4FD] absolute z-[51] left-[-20.5vw] top-[-3.7vw]">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 68" fill="none" className="absolute w-[4.44vw] h-[4.41vw] right-[-2.22vw] top-[1.42vw]">
                         <path d="M33.8203 0C33.83 4.40665 34.7022 8.76915 36.3887 12.8408C38.0847 16.9354 40.5712 20.6562 43.7051 23.79C46.8388 26.9237 50.559 29.4095 54.6533 31.1055C58.7252 32.7921 63.0882 33.6642 67.4951 33.6738C67.4952 33.6988 67.4971 33.7241 67.4971 33.749C67.4971 33.7734 67.4952 33.7979 67.4951 33.8223C63.0882 33.8319 58.7252 34.705 54.6533 36.3916C50.559 38.0876 46.8388 40.5734 43.7051 43.707C40.5712 46.8409 38.0847 50.5617 36.3887 54.6562C34.7522 58.607 33.8843 62.8315 33.8252 67.1045C33.7414 62.8454 32.7227 58.4296 31.0986 54.5088C29.4026 50.4142 26.917 46.6934 23.7832 43.5596C20.6494 40.4257 16.9285 37.9402 12.834 36.2441C8.76441 34.5585 4.40434 33.6864 0 33.6758V33.6729C4.40473 33.6625 8.76502 32.7912 12.835 31.1055C16.9295 29.4095 20.6504 26.9238 23.7842 23.79C26.918 20.6562 29.4036 16.9354 31.0996 12.8408C32.786 8.76939 33.6582 4.40736 33.668 0.000976562C33.6947 0.000914546 33.7213 3.61874e-08 33.748 0C33.7721 0 33.7962 -5.04085e-05 33.8203 0Z" fill="#8D42FD"/>
                     </svg>
@@ -31,7 +34,7 @@ export default function MerchandiseSection() {
                 </div>
 
                 {/* --- BAG (Purple Card) --- */}
-                <div id="purple-merch-card-container" className="absolute z-[0] bottom-0 right-[-19.015vw] flex flex-col items-center justify-center">
+                <div id="purple-merch-card-container" className="invisible absolute z-[0] bottom-0 right-[-19.015vw] flex flex-col items-center justify-center">
                     <div id="purple-merch-card" className="relative w-[19.04vw] h-[17.76vw] rounded-[2.19vw] border-[3px] border-[#141131] bg-[#2C2945]">
                         <div id="merch-img-container3" className="absolute left-[2.2vw] bottom-[1.8vw] w-[14.73vw] h-[18.74vw] group">
                             <img src="/merch-bag-front.png" alt="merch-bag-front" className="absolute inset-0 w-full h-full object-fit aspect-[224/285] transition-opacity duration-500 ease-in-out group-hover:opacity-0"/>

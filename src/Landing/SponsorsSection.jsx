@@ -59,13 +59,13 @@ export default function SponsorsSection() {
                 <div id="sponsor-card-container2" className="relative w-[19.2vw] flex flex-col justify-center items-center gap-y-[0.526vw] absolute top-[1vw]">
                     <div className="h-[19.92vw] w-[19.2vw] rounded-[0.82vw] bg-[#D9D9D9]"></div>
                     <div className="flex h-[4.471vw] w-[19.2vw] py-[0.986vw] px-[1.973vw] justify-center items-center rounded-[0.816vw] bg-[#FFF9F0] text-[#141131] text-[2.141vw] font-black">
-                        Title Sponsor
+                        Coming soon
                     </div>
                 </div>
 
                 <div id="sponsor-card-container3" className="relative w-[19.2vw] flex flex-col justify-center items-center gap-y-[0.526vw]">
                     <div className="flex h-[4.471vw] w-[19.2vw] py-[0.986vw] px-[1.973vw] justify-center items-center rounded-[0.816vw] bg-[#FFF9F0] text-[#141131] text-[2.141vw] font-black">
-                        Title Sponsor
+                        Coming soon
                     </div>
                     <div className="h-[19.92vw] w-[19.2vw] rounded-[0.82vw] bg-[#D9D9D9]"></div>
                 </div>
@@ -73,7 +73,7 @@ export default function SponsorsSection() {
                 <div id="sponsor-card-container4" className="relative w-[19.2vw] flex flex-col justify-center items-center gap-y-[0.526vw] absolute top-[1vw]">
                     <div className="h-[19.92vw] w-[19.2vw] rounded-[0.82vw] bg-[#D9D9D9]"></div>
                     <div className="flex h-[4.471vw] w-[19.2vw] py-[0.986vw] px-[1.973vw] justify-center items-center rounded-[0.816vw] bg-[#FFF9F0] text-[#141131] text-[2.141vw] font-black">
-                        Title Sponsor
+                        Coming soon
                     </div>
                 </div>
 
