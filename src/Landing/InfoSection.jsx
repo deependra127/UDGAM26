@@ -2,11 +2,11 @@ export default function InfoSection() {
   return (
     <div
       id="udgam-info"
-      className="w-full h-[100vh] max-md:h-[50vh] flex flex-row justify-center items-center py-[15vh] max-md:py-[5vh]"
+      className="w-full h-[100vh] max-md:h-[auto] flex flex-col md:flex-row justify-center items-center py-[5vh] max-md:py-[15vh]"
     >
       <div
         id="udgam-infovid-container"
-        className="flex flex-col justify-center items-center w-[70%] max-md:w-[60%] h-[100%]"
+        className="flex flex-col justify-center items-center w-[70%] max-md:w-[90%] h-[100%]"
       >
         <div
           id="what-udgam-container"
@@ -54,9 +54,9 @@ export default function InfoSection() {
             </div> */}
       <div
         id="gallary-container"
-        className="w-[25%] max-md:w-[30%] h-[100%] rounded-[1.5rem] max-md:rounded-[2vw] border-[3px] border-[#141131] bg-[#FFF9F0] ml-4 max-md:ml-0 flex flex-col items-center justify-between p-[1vw]"
+        className="w-[25%] max-md:w-[90%] h-full max-md:h-auto rounded-[1.5rem] max-md:rounded-[2vw] border-[3px] border-[#141131] bg-[#FFF9F0] ml-4 max-md:ml-0 flex flex-col max-md:flex-row items-center justify-between p-[1vw]"
       >
-        <div className="w-full h-[32%] overflow-hidden rounded-[1rem] border border-[#141131]">
+        <div className="w-full max-md:w-[32%] h-[32%] overflow-hidden rounded-[1rem] border border-[#141131]">
           <img
             src="/gallery (1).jpg"
             alt="Gallery 1"
@@ -64,7 +64,7 @@ export default function InfoSection() {
           />
         </div>
 
-        <div className="w-full h-[32%] overflow-hidden rounded-[1rem] border border-[#141131]">
+        <div className="w-full max-md:w-[32%] h-[32%] overflow-hidden rounded-[1rem] border border-[#141131]">
           <img
             src="/gallery (2).JPG"
             alt="Gallery 2"
@@ -72,7 +72,7 @@ export default function InfoSection() {
           />
         </div>
 
-        <div className="w-full h-[32%] overflow-hidden rounded-[1rem] border border-[#141131]">
+        <div className="w-full max-md:w-[32%] h-[32%] overflow-hidden rounded-[1rem] border border-[#141131]">
           <img
             src="/gallery (6).JPG"
             alt="Gallery 3"
