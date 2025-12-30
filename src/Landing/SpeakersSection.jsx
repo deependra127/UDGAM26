@@ -1,45 +1,45 @@
 const speakersData = [
     { 
         id: 1, 
-        name: "Arjun Mehta", 
-        role: "CEO, TechFlow", 
-        img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
-        linkedin: "https://www.linkedin.com/in/arjun-mehta-example" 
+        name: "Jeff maggioncalda", 
+        role: "Former CEO, Coursera", 
+        img: "https://www.reuters.com/resizer/v2/RWVA62UXF5OHZA3CSTEME7CDFQ.jpg?auth=a95b5bcfe3cd7bd8d32bb9bf0a07cf5bba7f6edb6cffc1552c22d349581c0347&width=1920&quality=80",
+        linkedin: "https://www.linkedin.com/in/jeffmagg?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
     },
     { 
         id: 2, 
-        name: "Sarah Jenkins", 
-        role: "Director, AI Corp", 
-        img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80",
-        linkedin: "https://www.linkedin.com/in/sarah-jenkins-example"
+        name: "Sandeep Jain", 
+        role: "Founder & CEO, GeeksforGeeks", 
+        img: "https://pbs.twimg.com/profile_images/1383660243587002368/DJQEGX2o_400x400.jpg",
+        linkedin: "https://www.linkedin.com/in/sandeep-jain-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     { 
         id: 3, 
-        name: "Rahul Verma", 
-        role: "Founder, StartupX", 
-        img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=800&q=80",
-        linkedin: "https://www.linkedin.com/in/rahul-verma-example"
+        name: "Ankur Warikoo", 
+        role: "Speaker & Founder, WebVeda", 
+        img: "https://sosimg.sgp1.cdn.digitaloceanspaces.com/artist-gallery/2290434_1658212573.jpg",
+        linkedin: "https://www.linkedin.com/in/warikoo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     { 
         id: 4, 
-        name: "Elena Rodriguez", 
-        role: "CTO, FutureLabs", 
-        img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-        linkedin: "https://www.linkedin.com/in/elena-rodriguez-example"
+        name: "Ashneer Grover", 
+        role: "Former Founder/MD/CEO, BharatPe", 
+        img: "https://www.deccanchronicle.com/h-upload/2024/09/30/1846777-untitleddesign18.webp",
+        linkedin: "https://www.linkedin.com/in/ashneer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     { 
         id: 5, 
-        name: "David Chen", 
-        role: "Designer, Creative", 
-        img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
-        linkedin: "https://www.linkedin.com/in/david-chen-example"
+        name: "Ankit Nagori", 
+        role: "Internet Entrepreneur & Investor", 
+        img: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202401/659e5fb8d2f80-as-time-rolled-on--the-company-shifted-gears-to-a-thrasio-like-model--snagging-cloud-kitchen-brands-101327484-16x9.jpg?size=948:533",
+        linkedin: "https://www.linkedin.com/in/ankitnagori?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     { 
         id: 6, 
-        name: "Priya Patel", 
-        role: "Lead, DevStudio", 
-        img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-        linkedin: "https://www.linkedin.com/in/priya-patel-example"
+        name: "Rohit Kapoor", 
+        role: "CEO, Food Marketplace, Swiggy", 
+        img: "https://img.etimg.com/photo/msid-121583639/rohit.jpg",
+        linkedin: "https://www.linkedin.com/in/rohit-kapoor-99a30436?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
 ];
 
@@ -49,7 +49,7 @@ export default function SpeakersSection() {
     return (
         <div id="speakers" className="w-full min-h-[100vh] max-md:min-h-[60vh] flex flex-col items-center justify-start pt-[30vh] pb-[20vh] relative overflow-hidden">
             <div id="speaker-title" className="text-[#FFF9F0] font-['Inter'] font-black leading-normal text-[10.85vw] w-full flex flex-row justify-center items-center mb-[5vh] relative z-40 h-[0vh]">
-                SPEAKERS
+                PAST SPEAKERS
             </div>
             
             {/* UPDATED: Increased container height for mobile (max-md:h-[50vw]) */}

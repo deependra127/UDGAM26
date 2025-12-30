@@ -20,7 +20,7 @@ const TestimonialCard = ({ divclassName, textbclassName, imgsrc, testimonial, au
                 </div>
             </div>
             <div id="TestimonialAuthor" className="text-black font-['Inter'] text-[1.05vw] not-italic font-bold leading-[normal] self-start ml-[2.37vw]">
-                 {author}
+                 -{author}
             </div>
         </div>
     ) : (
@@ -37,7 +37,7 @@ const TestimonialCard = ({ divclassName, textbclassName, imgsrc, testimonial, au
                 </svg>
             </div>
             <div id="TestimonialAuthor" className="text-black font-['Inter'] text-[1.05vw] not-italic font-bold leading-[normal] self-start ml-[2.37vw]">
-                 {author}
+                 -{author}
             </div>
         </div>
     );
@@ -66,22 +66,22 @@ export default function TestimonialsSection() {
                 >
                     <TestimonialCard 
                         divclassName="w-[20.38vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
-                        textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal"
-                        testimonial="Coming Soon ..."
-                        author=""
+                        textbclassName="text-black font-['Inter'] text-[0.9vw] not-italic font-black leading-normal"
+                        testimonial="Udgam brings a rare combination of intellectual rigor and unfiltered curiosity. The audience was sharp, bold, and genuinely interested in understanding not just what to do, but why. It’s a refreshing space where real conversations happen—no fluff, just honest growth and learning."
+                        author="Ashneer Grover"
                     />
                     <TestimonialCard 
                         divclassName="w-[37.15vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
-                        textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal"
-                        testimonial="Coming Soon ..."
-                        author=""
+                        textbclassName="text-black font-['Inter'] text-[1vw] not-italic font-black leading-normal"
+                        testimonial="Speaking at Udgam was an absolute pleasure. The event brings together highly driven students who are not only eager to learn but also ready to apply ideas in real world contexts. The engagement and thoughtfulness of the audience reflected a maturity beyond their years. I look forward to seeing Udgam grow into an even bigger stage for thought leadership"
+                        author="Sandeep Jain"
                         // imgsrc="/placeholder-testi.png"
                     />
                     <TestimonialCard 
                         divclassName="w-[28.47vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
-                        textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal"
-                        testimonial="Coming soon ..."
-                        author=""
+                        textbclassName="text-black font-['Inter'] text-[1vw] not-italic font-black leading-normal"
+                        testimonial="Udgam is truly a celebration of curiosity and ambition. What impressed me most was the hunger to think deeply, ask meaningful questions, and reflect on one’s own journey. I was blown away by the authenticity of the conversations and the open‑mindedness of the participants. Events like Udgam remind me why I love sharing ideas with the next generation of builders."
+                        author="Ankur warikoo"
                     />
                 </div>
 
@@ -96,15 +96,15 @@ export default function TestimonialsSection() {
                 >
                     <TestimonialCard 
                         divclassName="w-[37.15vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
-                        textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal"
-                        testimonial="Coming Soon ..."
-                        author=""
+                        textbclassName="text-black font-['Inter'] text-[1vw] not-italic font-black leading-normal"
+                        testimonial="Udgam stands out as one of the most thoughtfully curated platforms for emerging leaders. The energy, curiosity, and depth of questions from the audience were truly remarkable. It’s rare to attend an event where both speakers and students walk away feeling inspired and enriched. I’m grateful for the opportunity to be part of this journey of learning and innovation."
+                        author="Jeff maggioncalda"
                     />
                     <TestimonialCard 
                         divclassName="w-[48.86vw] h-[19.33vw] rounded-[1.58vw] border-[1.5px] border-[#101211] bg-[#FFF9F0]"
-                        textbclassName="text-black font-['Inter'] text-[1.58vw] not-italic font-black leading-normal pr-[2%]"
-                        testimonial="Coming soon ..."
-                        author=""
+                        textbclassName="text-black font-['Inter'] text-[1vw] not-italic font-black leading-normal pr-[2%]"
+                        testimonial="Udgam stands apart as a platform that pushes students beyond surface‑level thinking. The event curated challenging perspectives and fostered dynamic discussions. The quality of engagement was incredibly high, and it was inspiring to be surrounded by young minds eager to solve real problems with fresh thinking. Udgam is shaping tomorrow’s leaders today."
+                        author="Ankit Nagori"
                         // imgsrc="/placeholder-testi.png"
                     />
                 </div>
