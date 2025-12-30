@@ -34,13 +34,13 @@ export default function GallerySection() {
                 <div id="gallery-image-row1" className="flex flex-col justify-center items-center">
                     <GalleryImage 
                         id="image-r1-1" 
-                        src="/placeholder-gallery.png" 
+                        src="/gallery (2).JPG" 
                         className="w-[22.23vw] h-[13.35vw] aspect-[338/203] rounded-[1.58vw] border-[2px] border-[#FFF9F0]" 
                         onClick={setActiveImage}
                     />
                     <GalleryImage 
                         id="image-r1-2" 
-                        src="/placeholder-gallery.png" 
+                        src="/gallery (6).JPG" 
                         className="w-[22.23vw] h-[31.69vw] aspect-[169/241] rounded-[1.58vw] border-[2px] border-[#FFF9F0]" 
                         onClick={setActiveImage}
                     />
@@ -49,13 +49,13 @@ export default function GallerySection() {
                 <div id="gallery-image-row2" className="flex flex-col justify-center items-center">
                     <GalleryImage 
                         id="image-r2-1" 
-                        src="/placeholder-gallery.png" 
+                        src="/gallery (3).JPG" 
                         className="w-[22.23vw] h-[22.62vw] aspect-[169/172] rounded-[1.58vw] border-[2px] border-[#FFF9F0]" 
                         onClick={setActiveImage}
                     />
                     <GalleryImage 
                         id="image-r2-2" 
-                        src="/placeholder-gallery.png" 
+                        src="/gallery (4).JPG" 
                         className="w-[22.23vw] h-[22.42vw] aspect-[338/341] rounded-[1.58vw] border-[2px] border-[#FFF9F0]" 
                         onClick={setActiveImage}
                     />
@@ -71,17 +71,17 @@ export default function GallerySection() {
                         />
                         <GalleryImage 
                             id="image-r3-4-c1-2" 
-                            src="/placeholder-gallery.png" 
+                            src="/gallery (8).JPG" 
                             className="w-[11.64vw] h-[32.75vw] aspect-[59/166] rounded-[1.58vw] border-[2px] border-[#FFF9F0]" 
                             onClick={setActiveImage}
                         />
                     </div>
                     <GalleryImage 
                         id="image-r3-4-c2-1" 
-                        src="/placeholder-gallery.png" 
+                        src="/gallery (1).jpg" 
                         className="w-[41.69vw] h-[12.30vw] aspect-[634/187] rounded-[1.58vw] border-[2px] border-[#FFF9F0]" 
                         onClick={setActiveImage}
-                        customStyle="w-[119.21%] h-[269.91%] left-[-7.92vw] top-[-4.71vw]"
+                        customStyle="w-[119.21%] h-[269.91%] left-[-2.92vw] top-[-12.71vw]"
                     />
                 </div>
             </div>
